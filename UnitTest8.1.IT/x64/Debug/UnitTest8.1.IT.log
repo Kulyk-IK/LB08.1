@@ -1,0 +1,5 @@
+﻿  UnitTest8.1.IT.cpp
+C:\Project\LB08.1\LB08.1\main.cpp(33,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/UnitTest8.1.IT.cpp')
+  
+  UnitTest8.1.IT.vcxproj -> C:\Project\LB08.1\x64\Debug\UnitTest8.1.IT.dll

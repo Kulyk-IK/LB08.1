@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\LB08.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB52DA2-DB24-B860-8387-24534DE7870A}|UnitTest8.1.IT\\UnitTest8.1.IT.vcxproj|C:\\Project\\LB08.1\\UnitTest8.1.IT\\UnitTest8.1.IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEB52DA2-DB24-B860-8387-24534DE7870A}|UnitTest8.1.IT\\UnitTest8.1.IT.vcxproj|solutionrelative:UnitTest8.1.IT\\UnitTest8.1.IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF777BB-0EE5-40EB-8618-0C38D97E0514}|LB08.1\\LB08.1.vcxproj|C:\\Project\\LB08.1\\LB08.1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEF777BB-0EE5-40EB-8618-0C38D97E0514}|LB08.1\\LB08.1.vcxproj|solutionrelative:LB08.1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94B846B-EEA1-4F0C-A08E-813FE4486ABF}|LB08.1.Char\\LB08.1.Char.vcxproj|C:\\Project\\LB08.1\\LB08.1.Char\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F94B846B-EEA1-4F0C-A08E-813FE4486ABF}|LB08.1.Char\\LB08.1.Char.vcxproj|solutionrelative:LB08.1.Char\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Project\\LB08.1\\LB08.1.Char\\main.cpp",
+              "RelativeDocumentMoniker": "LB08.1.Char\\main.cpp",
+              "ToolTip": "C:\\Project\\LB08.1\\LB08.1.Char\\main.cpp",
+              "RelativeToolTip": "LB08.1.Char\\main.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-06T14:41:21.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest8.1.IT.cpp",
+              "DocumentMoniker": "C:\\Project\\LB08.1\\UnitTest8.1.IT\\UnitTest8.1.IT.cpp",
+              "RelativeDocumentMoniker": "UnitTest8.1.IT\\UnitTest8.1.IT.cpp",
+              "ToolTip": "C:\\Project\\LB08.1\\UnitTest8.1.IT\\UnitTest8.1.IT.cpp*",
+              "RelativeToolTip": "UnitTest8.1.IT\\UnitTest8.1.IT.cpp*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-06T14:36:15.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Project\\LB08.1\\LB08.1\\main.cpp",
+              "RelativeDocumentMoniker": "LB08.1\\main.cpp",
+              "ToolTip": "C:\\Project\\LB08.1\\LB08.1\\main.cpp",
+              "RelativeToolTip": "LB08.1\\main.cpp",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-04T19:15:18.734Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 893,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
