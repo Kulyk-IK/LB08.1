@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 std::vector<int> getTripleExlamationMarks(std::string string, bool &isContains) {
 	std::vector<int> indexes;
@@ -40,7 +41,7 @@ std::string changeString(std::string string, std::vector<int> exlamationMarksInd
 
 int main() {
 	std::string string ;
-	std::cout << "Enter a string: "; std::cin >> string;
+	std::cout << "Enter a string: "; std::getline(std::cin, string);
 
 	bool isContains = false;
 	std::vector<int> vector = getTripleExlamationMarks(string, isContains);
