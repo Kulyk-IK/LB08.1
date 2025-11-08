@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Project\\LB08.1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{470434BC-5F91-EDF8-E230-07762D5A7819}|UnitTest08.1.String\\UnitTest08.1.String.vcxproj|C:\\Project\\LB08.1\\UnitTest08.1.String\\UnitTest08.1.String.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{470434BC-5F91-EDF8-E230-07762D5A7819}|UnitTest08.1.String\\UnitTest08.1.String.vcxproj|solutionrelative:UnitTest08.1.String\\UnitTest08.1.String.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{770D9DD2-8FA0-3946-9692-F1ABDC67C541}|UnitTest8.1.Rec\\UnitTest8.1.Rec.vcxproj|C:\\Project\\LB08.1\\UnitTest8.1.Rec\\UnitTest8.1.Rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{770D9DD2-8FA0-3946-9692-F1ABDC67C541}|UnitTest8.1.Rec\\UnitTest8.1.Rec.vcxproj|solutionrelative:UnitTest8.1.Rec\\UnitTest8.1.Rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB52DA2-DB24-B860-8387-24534DE7870A}|UnitTest8.1.IT\\UnitTest8.1.IT.vcxproj|C:\\Project\\LB08.1\\UnitTest8.1.IT\\UnitTest8.1.IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEB52DA2-DB24-B860-8387-24534DE7870A}|UnitTest8.1.IT\\UnitTest8.1.IT.vcxproj|solutionrelative:UnitTest8.1.IT\\UnitTest8.1.IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59CDF50F-5839-4147-9728-DA68D650138D}|LB08.1.Rec\\LB08.1.Rec.vcxproj|C:\\Project\\LB08.1\\LB08.1.Rec\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -13,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{BEF777BB-0EE5-40EB-8618-0C38D97E0514}|LB08.1\\LB08.1.vcxproj|C:\\Project\\LB08.1\\LB08.1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BEF777BB-0EE5-40EB-8618-0C38D97E0514}|LB08.1\\LB08.1.vcxproj|solutionrelative:LB08.1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94384460-7187-4AEB-8B72-374A68894C9E}|LB08.1.String\\LB08.1.String.vcxproj|C:\\Project\\LB08.1\\LB08.1.String\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94384460-7187-4AEB-8B72-374A68894C9E}|LB08.1.String\\LB08.1.String.vcxproj|solutionrelative:LB08.1.String\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,38 +39,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UnitTest08.1.String.cpp",
+              "DocumentMoniker": "C:\\Project\\LB08.1\\UnitTest08.1.String\\UnitTest08.1.String.cpp",
+              "RelativeDocumentMoniker": "UnitTest08.1.String\\UnitTest08.1.String.cpp",
+              "ToolTip": "C:\\Project\\LB08.1\\UnitTest08.1.String\\UnitTest08.1.String.cpp",
+              "RelativeToolTip": "UnitTest08.1.String\\UnitTest08.1.String.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-08T16:27:17.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Project\\LB08.1\\LB08.1.String\\main.cpp",
+              "RelativeDocumentMoniker": "LB08.1.String\\main.cpp",
+              "ToolTip": "C:\\Project\\LB08.1\\LB08.1.String\\main.cpp",
+              "RelativeToolTip": "LB08.1.String\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-08T13:39:27.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest8.1.IT.cpp",
+              "DocumentMoniker": "C:\\Project\\LB08.1\\UnitTest8.1.IT\\UnitTest8.1.IT.cpp",
+              "RelativeDocumentMoniker": "UnitTest8.1.IT\\UnitTest8.1.IT.cpp",
+              "ToolTip": "C:\\Project\\LB08.1\\UnitTest8.1.IT\\UnitTest8.1.IT.cpp",
+              "RelativeToolTip": "UnitTest8.1.IT\\UnitTest8.1.IT.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-06T16:28:43.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UnitTest8.1.Rec.cpp",
               "DocumentMoniker": "C:\\Project\\LB08.1\\UnitTest8.1.Rec\\UnitTest8.1.Rec.cpp",
               "RelativeDocumentMoniker": "UnitTest8.1.Rec\\UnitTest8.1.Rec.cpp",
               "ToolTip": "C:\\Project\\LB08.1\\UnitTest8.1.Rec\\UnitTest8.1.Rec.cpp",
               "RelativeToolTip": "UnitTest8.1.Rec\\UnitTest8.1.Rec.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-06T16:23:10.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Project\\LB08.1\\LB08.1.Rec\\main.cpp",
               "RelativeDocumentMoniker": "LB08.1.Rec\\main.cpp",
               "ToolTip": "C:\\Project\\LB08.1\\LB08.1.Rec\\main.cpp",
               "RelativeToolTip": "LB08.1.Rec\\main.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-06T16:07:34.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Project\\LB08.1\\LB08.1\\main.cpp",
               "RelativeDocumentMoniker": "LB08.1\\main.cpp",
               "ToolTip": "C:\\Project\\LB08.1\\LB08.1\\main.cpp",
               "RelativeToolTip": "LB08.1\\main.cpp",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwCoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-04T19:15:18.734Z",
               "EditorCaption": ""

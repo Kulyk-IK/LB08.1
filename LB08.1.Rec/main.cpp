@@ -1,11 +1,24 @@
 #include <iostream>
-#include <vector>
 #include <string>
 
-void getTripleExlamationMarks(std::string string, size_t string_length, bool& isContains,
-	std::vector<int>& indexes, int start_streak = -1, int streak_counter = 0, int i = 0) {
+bool isContainsTripleExlamationMarks(std::string string, int counter = 1, int i = 0) {
+	if (i == string.length()) return false;
 
-	if (i == string_length) return;
+	if (counter == 3)
+		return true;
+
+	if (string[i] == '!')
+		counter++;
+	else
+		counter = 1;
+
+	return isContainsTripleExlamationMarks(string, counter, ++i);
+}
+
+std::string changeString(std::string string, int start_streak = -1,
+	int streak_counter = 0, int i = 0) {
+
+	if (i == string.length()) return string;
 
 	if (string[i] == '!')
 		streak_counter++;
@@ -14,35 +27,21 @@ void getTripleExlamationMarks(std::string string, size_t string_length, bool& is
 
 	if (streak_counter == 3) {
 		start_streak = i - 2;
-		indexes.push_back(start_streak);
+		string.replace(start_streak, 3, "**");
 		streak_counter = 0;
+		i = start_streak - 1;
 	}
 
-	if (indexes.size() > 0)
-		isContains = true;
-
-	getTripleExlamationMarks(string, string_length, isContains, indexes, start_streak, streak_counter, i + 1);
-}
-
-std::string changeString(std::string string, std::vector<int> &exlamationMarksIndexes, int i) {
-	if (i < 0) return string;
-
-	int start_index = exlamationMarksIndexes[i];
-	string.replace(start_index, 3, "**");
-
-
-	return changeString(string, exlamationMarksIndexes, i-1);
+	return changeString(string, start_streak, streak_counter, ++i);
 }
 
 int main() {
 	std::string string;
 	std::cout << "Enter a string: "; std::getline(std::cin, string);
 
-	bool isContains = false;
-	std::vector<int> indexes;
-	getTripleExlamationMarks(string, string.length(), isContains, indexes);
+	bool isContains = isContainsTripleExlamationMarks(string);
 
-	std::string changed_string = changeString(string, indexes, (int)indexes.size() - 1);
+	std::string changed_string = changeString(string);
 
 	std::cout << "Start string : " << string << std::endl;
 	std::cout << "Changed string : " << changed_string << std::endl;
