@@ -13,10 +13,9 @@ namespace UnitTest81IT
 		TEST_METHOD(TestMethod1)
 		{
 			std::string string = "Hello!!! Wait, what!! This is absolutely insane!!!!!! Wow!!!!";
-			bool isContains = false;
-			std::vector<int> vector = getTripleExlamationMarks(string, isContains);
+			bool isContains = isContainsTripleExlamationMarks(string);
 
-			std::string changed_string = changeString(string, vector);
+			std::string changed_string = changeString(string);
 			std::string expected_string = "Hello** Wait, what!! This is absolutely insane**** Wow**!";
 
 			Assert::AreEqual(changed_string == expected_string, true);

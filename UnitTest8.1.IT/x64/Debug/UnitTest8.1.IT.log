@@ -1,6 +1,4 @@
 ﻿  UnitTest8.1.IT.cpp
-C:\Project\LB08.1\LB08.1\main.cpp(34,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file '/UnitTest8.1.IT.cpp')
-  
+  LINK : C:\Project\LB08.1\x64\Debug\UnitTest8.1.IT.dll not found or not built by the last incremental link; performing full link
      Creating library C:\Project\LB08.1\x64\Debug\UnitTest8.1.IT.lib and object C:\Project\LB08.1\x64\Debug\UnitTest8.1.IT.exp
   UnitTest8.1.IT.vcxproj -> C:\Project\LB08.1\x64\Debug\UnitTest8.1.IT.dll

@@ -1,16 +1,25 @@
 #include <iostream>
-#include <vector>
 #include <string>
 
-std::vector<int> getTripleExlamationMarks(std::string string, bool &isContains) {
-	std::vector<int> indexes;
+bool isContainsTripleExlamationMarks(std::string string) {
+	int counter = 1;
+	for (int i = 0; i < string.length(); i++) {
+		if (counter == 3)
+			return true;
 
-	size_t string_length = string.length();
+		if (string[i] == '!')
+			counter++;
+		else
+			counter = 1;
+	} 
+	return false;
+}
 
+std::string changeString(std::string string) {
 	int start_streak = -1;
 	int streak_counter = 0;
 
-	for (int i = 0; i < string_length; i++) {
+	for (int i = 0; i < string.length(); i++) {
 		if (string[i] == '!')
 			streak_counter++;
 		else
@@ -18,22 +27,11 @@ std::vector<int> getTripleExlamationMarks(std::string string, bool &isContains) 
 
 		if (streak_counter == 3) {
 			start_streak = i - 2;
-			indexes.push_back(start_streak);
+			string.replace(start_streak, 3, "**");
 			streak_counter = 0;
+
+			i = start_streak - 1;
 		}
-	}
-
-	if (indexes.size() > 0)
-		isContains = true;
-
-	return indexes;
-}
-
-std::string changeString(std::string string, std::vector<int> exlamationMarksIndexes) {
-	size_t vector_size = exlamationMarksIndexes.size();
-	for (int i = vector_size - 1; i >= 0; i--) {
-		int start_index = exlamationMarksIndexes[i];
-		string.replace(start_index, 3, "**");
 	}
 
 	return string;
@@ -43,10 +41,9 @@ int main() {
 	std::string string ;
 	std::cout << "Enter a string: "; std::getline(std::cin, string);
 
-	bool isContains = false;
-	std::vector<int> vector = getTripleExlamationMarks(string, isContains);
+	bool isContains = isContainsTripleExlamationMarks(string);
 
-	std::string changed_string = changeString(string, vector);
+	std::string changed_string = changeString(string);
 
 	std::cout << "Start string : " << string << std::endl;
 	std::cout << "Changed string : " << changed_string << std::endl;
